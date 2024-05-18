@@ -67,10 +67,12 @@ ul{
         color: #404bbf;
     }
     
-    .contacts{
+    .contacts-adress{
         font-style: normal;
     }
-    
+    .contacts-link{
+        list-style: none;
+    }
     .contacts-name{
         font-family: "Roboto", sans-serif;
         font-weight: 400;
