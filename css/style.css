@@ -1,8 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
-      
+    background-color: #FFFFFF; 
 }
 a{
     text-decoration: none;
@@ -43,10 +42,13 @@ ul{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-list a:hover{
-    color: #404bbf;}
-    nav-list a:focus{
-    color: #404bbf;}
+.nav-list a:hover {
+    color: #404bbf;
+}
+
+.nav-list a:focus {
+    color: #404bbf;
+}
 
 .nav-list-name{
     font-family: "Roboto", sans-serif;
@@ -56,12 +58,14 @@ ul{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-list-name :hover{
+
+.nav-list-name:hover {
     color: #404bbf;
 }
-.nav-list-name :focus {
+
+.nav-list-name:focus {
     color: #404bbf;
-    }
+}
 .contacts{
     font-style: normal;
     
@@ -75,8 +79,9 @@ ul{
     color: #434455;
    
 }
-.contacts :hover,
-.contacts :focus {
+
+.contacts-name:hover,
+.contacts-name:focus {
     color: #404bbf;
 }
 .hero{
@@ -219,7 +224,8 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;   
-}
+} 
+
 .footer-text{
     line-height: 1.5;
     color: #F4F4FD;
