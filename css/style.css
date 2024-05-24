@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6, p {
         font-family: "Raleway", sans-serif;
         color: #4d5ae5;
         text-transform: uppercase;
+        margin-right: 76px;
     }   
     
 .logo-studio{
@@ -76,11 +77,13 @@ h1, h2, h3, h4, h5, h6, p {
         color: #2e2f42;
         display: flex;
         gap: 40px;
+        display: flex;
     }
 .nav-list-name{
         display: block;
         padding-top: 24px;
         padding-bottom: 24px;
+        gap: 40px;
 }
     
 .nav-list a:hover {
@@ -158,7 +161,8 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 48px;     
+    margin-bottom: 48px;
+    max-width: 496px;     
 } 
 .order-service-button{
     font-family: "Roboto", sans-serif;
@@ -173,7 +177,10 @@ h1, h2, h3, h4, h5, h6, p {
     min-height: 56px;
     border-radius: 4px;
     padding: 16px, 32px;
-    border: 1px solid transparent;  
+    border: 1px solid transparent;
+    border: none;
+    cursor: pointer;
+    
 }  
 .order-service-button:hover,
 .order-service-button:focus {
@@ -239,6 +246,9 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     margin-bottom: 72px;
   }
+.picture{
+    display: block;
+}
 .team{
     font-family: "Roboto", sans-serif;
     background-color: #F4F4FD;
@@ -266,6 +276,8 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     margin-top: 32px;
     margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 .team-member{
     font-family: "Roboto", sans-serif;
@@ -301,20 +313,26 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 120px;
     padding-bottom: 120px     
 }
+.product-picture{
+    display: block;
+}
 .product{
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    text-align: center;
     margin-bottom: 72px;
 }
 .product-list{
     display: flex;
     gap: 24px;
     margin-bottom: 48px;
+    flex-wrap: wrap;
 
 }
 .product-list-second{
@@ -327,6 +345,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 32px;
     margin-bottom: 32px;
   }
+.card-product{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
 .product-style{
     border-radius: 0px 0px 4px 4px;
 }
@@ -363,8 +385,8 @@ h1, h2, h3, h4, h5, h6, p {
     text-transform: uppercase;
     background: #2e2f42;
     margin-top: 100px;
-    
-
+    display: inline-block; 
+    margin-bottom: 16px;
 }
 
 .logo-studio-footer{
