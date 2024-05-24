@@ -2,37 +2,96 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+   
 }
-a{
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before *::after {
+    box-sizing: inherit;
+  }
+    a{
     text-decoration: none;
     }
 ul{
     list-style: none;
-    }
-    .header{
+    margin: 0;
+    padding-left: 0;
+    } 
+h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+      }
+.container {
+        width: 1158px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        /* outline: 2px solid red; */
+      }
+.picture {
+        display: block;
+      }
+.header{
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         color: #4d5ae5;
+        border-bottom: 1px solid #e7e9fc;
     }
+.main-nav {
+        display: flex;
+        align-items: center;
+      }
+.logo{
+        display: flex;
+        align-items: center;
+}
     
-    .logo-link{
+.logo-link{
         font-family: "Raleway", sans-serif;
         color: #4d5ae5;
         text-transform: uppercase;
     }   
     
-    .logo-studio{
+.logo-studio{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.167;
         letter-spacing: 0.03em;
         color: #2e2f42;
+        padding-right: 347px;
     }
     
-    .nav-list{
+.nav-list{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        display: flex;
+        gap: 40px;
+    }
+.nav-list-name{
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+    
+.nav-list a:hover {
+        color: #404bbf;
+    }
+    
+.nav-list a:focus {
+        color: #404bbf;
+    }
+    
+.nav-list-name{
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -41,38 +100,24 @@ ul{
         color: #2e2f42;
     }
     
-    .nav-list a:hover {
+.nav-list-name:hover {
         color: #404bbf;
     }
     
-    .nav-list a:focus {
+.nav-list-name:focus {
         color: #404bbf;
     }
     
-    .nav-list-name{
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-    }
-    
-    .nav-list-name:hover {
-        color: #404bbf;
-    }
-    
-    .nav-list-name:focus {
-        color: #404bbf;
-    }
-    
-    .contacts{
+.contacts{
         font-style: normal;
+        display: flex;
+        gap: 40px;
+        margin-left: auto; 
     }
-    .contacts-link{
+.contacts-link{
         list-style: none;
     }
-    .contacts-name{
+ .contacts-name{
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -81,15 +126,26 @@ ul{
         color: #434455;
     }
     
-    .contacts-name:hover,
-    .contacts-name:focus {
+.contacts-name:hover,
+.contacts-name:focus {
         color: #404bbf;
     }
-    
+
+
+
+
+
 .hero{
     color: #fff; 
-    background: #2e2f42;   
+    background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;   
 }
+.hero .container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 .hero-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -98,7 +154,11 @@ ul{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff; 
-    background: #2e2f42;   
+    background: #2e2f42;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;     
 } 
 .order-service-button{
     font-family: "Roboto", sans-serif;
@@ -108,6 +168,12 @@ ul{
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
+    display: inline-block;
+    min-width: 169px;
+    min-height: 56px;
+    border-radius: 4px;
+    padding: 16px, 32px;
+    border: 1px solid transparent;  
 }  
 .order-service-button:hover,
 .order-service-button:focus {
@@ -115,9 +181,27 @@ ul{
     cursor: pointer;
 }
 
+
+
+
+
+
+
 .services{
     font-family: "Roboto", sans-serif;
+      padding-top: 120px;
+      padding-bottom: 120px;
 }
+.advantages-list {
+    display: flex;
+    gap: 24px;
+  }
+  .advantages-title {
+    display: none;
+  }
+  .list-element {
+    width: 264px;
+  }
 .services-title{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -125,6 +209,7 @@ ul{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .services-info{
     font-family: "Roboto", sans-serif;
@@ -134,9 +219,31 @@ ul{
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+
+.img {
+    padding-bottom: 120px;
+  }
+.img-list {
+    display: flex;
+    gap: 24px;
+  }
+.img-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--headings-text-color);
+    text-align: center;
+    margin-bottom: 72px;
+  }
 .team{
     font-family: "Roboto", sans-serif;
-    background-color: #F4F4FD;  
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px  
 }   
 .team-title{
     font-family: "Roboto", sans-serif;
@@ -148,10 +255,22 @@ ul{
     text-transform: capitalize;
     color: #2e2f42;
     background-color: #F4F4FD;
+    text-align: center;
+    margin-bottom: 72px;
 }
+.team-list {
+    display: flex;
+    gap: 24px;
+  }
+.card {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
 .team-member{
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-member-title{
     font-family: "Roboto", sans-serif;
@@ -162,6 +281,7 @@ ul{
     text-align: center;
     background-color: #FFFFFF;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .team-member-info{
     font-family: "Roboto", sans-serif;
@@ -172,31 +292,66 @@ ul{
     text-align: center;
     color: #434455;   
 }
+
+
+
+
+.portfolio{
+    font-family: "Roboto", sans-serif;
+    padding-top: 120px;
+    padding-bottom: 120px     
+}
 .product{
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
+.product-list{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 48px;
+
+}
+.product-list-second{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+} 
+.card {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+.product-style{
+    border-radius: 0px 0px 4px 4px;
+}
+
 .product-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .product-info{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:  #434455;
+    margin-bottom: 72px;
 
 }
 .footer {
     background-color: #2e2f42;
-    color: #f4f4fd;    
+    color: #f4f4fd; 
+    padding-top: 100px;
+    padding-bottom: 100px;   
 }
 
 .footer .logo-link{
@@ -207,6 +362,9 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     background: #2e2f42;
+    margin-top: 100px;
+    
+
 }
 
 .logo-studio-footer{
@@ -222,6 +380,13 @@ ul{
 .footer-text{
     line-height: 1.5;
     color: #F4F4FD;
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
+    margin-top: 16px;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2418px;   
 }
 
+
+ 
