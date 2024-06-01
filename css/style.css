@@ -359,7 +359,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .product-picture{
     display: block;
+   
 }
+
 .product{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -375,7 +377,6 @@ h1, h2, h3, h4, h5, h6, p {
 .product-list{
     display: flex;
     gap: 24px;
-    margin-bottom: 48px;
     flex-wrap: wrap;
     row-gap: 48px;
 
@@ -385,19 +386,54 @@ h1, h2, h3, h4, h5, h6, p {
     gap: 24px;
     margin-bottom: 120px;
 } 
+.product-overlay {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-description{
+  background-color: #4d5ae5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.product-style:hover .portfolio-description{
+  transform: translateY(0);
+} 
+.product-style:hover{
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+  0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
 .card {
     text-align: center;
     margin-top: 32px;
     margin-bottom: 32px;
   }
 .card-product{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
+
 }
+  
+
+
 .product-style{
     border-radius: 0px 0px 4px 4px;
+    position: relative;
+    overflow: hidden;
 }
+.product-overlay {
+  position: relative;
+}
+
 
 .product-title{
     font-weight: 500;
@@ -412,9 +448,17 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:  #434455;
-    margin-bottom: 72px;
+  }
 
-}
+
+    
+
+
+
+
+
+
+
 .footer {
     background-color: #2e2f42;
     color: #f4f4fd; 
@@ -433,6 +477,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 100px;
     display: inline-block; 
     margin-bottom: 16px;
+    margin: 0;
 }
 
 .logo-studio-footer{
@@ -515,20 +560,11 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: baseline;
   }
-  .footer-box-second {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
-  }
-  .social-link {
+  .social-links{
     display: flex;
     gap: 16px;
+  }
   
-}
   .footer-box-text{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -552,16 +588,10 @@ h1, h2, h3, h4, h5, h6, p {
   .footer-box-link:focus {
     background-color: #31d0aa;
   }
-  
+  .footer-list{
+    width: 16px;
+  }
   .footer-box-link {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   } 
-  .footer-svg{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 16px;
-    width: 208px;
-    height: 40px;
-  }
+  
