@@ -159,65 +159,63 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 
-
-.hero{
-    color: #fff; 
-    background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px; 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
-    background-image: url(../images/people-office\ 1.png);
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.hero .container {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    .hero {
+      color: #fff;
+      background-color: #2e2f42;
+      padding-top: 188px;
+      padding-bottom: 188px;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.png);
+      max-width: 1440px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
   }
-.hero-title{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff; 
-    background: #2e2f42;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 48px;
-    max-width: 496px;     
-} 
-.order-service-button{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    background: #4d5ae5;
-    display: inline-block;
-    min-width: 169px;
-    min-height: 56px;
-    border-radius: 4px;
-    padding: 16px, 32px;
-    border: 1px solid transparent;
-    border: none;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-}  
-.order-service-button:hover,
-.order-service-button:focus {
-    background-color: #404BBF;
-    cursor: pointer;
-}
+  .hero .container {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .hero-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #fff;
+      background: #2e2f42;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 48px;
+      max-width: 496px;
+  }
+  .order-service-button {
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+      background: #4d5ae5;
+      display: inline-block;
+      min-width: 169px;
+      min-height: 56px;
+      border-radius: 4px;
+      padding: 16px, 32px;
+      border: 1px solid transparent;
+      border: none;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .order-service-button:hover,
+  .order-service-button:focus {
+      background-color: #404BBF;
+      cursor: pointer;
+  }
+  
 
 
 
