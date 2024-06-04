@@ -169,6 +169,7 @@ h1, h2, h3, h4, h5, h6, p {
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+      margin: auto;
   }
   
   .hero .container {
@@ -184,7 +185,6 @@ h1, h2, h3, h4, h5, h6, p {
       letter-spacing: 0.02em;
       text-align: center;
       color: #fff;
-      background: #2e2f42;
       max-width: 500px;
       margin-left: auto;
       margin-right: auto;
@@ -359,8 +359,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .card {
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
     padding-top: 32px;
     padding-bottom: 32px;
   }
@@ -433,6 +431,12 @@ h1, h2, h3, h4, h5, h6, p {
 .product-overlay {
   position: relative;
   overflow: hidden;
+}
+.overlay{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 .portfolio-description{
   background-color: #4d5ae5;
