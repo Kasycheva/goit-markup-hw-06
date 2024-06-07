@@ -659,7 +659,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 
-  .footer-subsribe{
+  .footer-subscribe{
     display: flex;
     margin-left: auto;
 
@@ -710,15 +710,11 @@ h1, h2, h3, h4, h5, h6, p {
  
 }
 .form-input {
-  padding: 8px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  outline: none;
-
- 
   width: 264px;
   height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
@@ -729,6 +725,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 4px;
   color: #ffffff;  
 }
+
 
 
 
