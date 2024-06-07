@@ -702,13 +702,13 @@ h1, h2, h3, h4, h5, h6, p {
     color: #ffffff;
   }
   
-  .form {
+  .footer-form {
     display: flex;
     gap: 24px;
     align-items: center;
   }
   
-  .form-input {
+  .footer-form-input {
     width: 264px;
     height: 40px;
     padding: 8px;
