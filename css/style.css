@@ -30,6 +30,11 @@ h1, h2, h3, h4, h5, h6, p {
       padding:0 16px;
       
     }
+img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
     
 @media screen and (min-width: 768px) {
   .container {
@@ -439,6 +444,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .first-section {
   padding: 188px 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .hero-title {
   font-weight: 700;
@@ -475,7 +482,7 @@ h1, h2, h3, h4, h5, h6, p {
 .order-service-button:focus {
   background-color: #404bbf;
 }
-@media (min-width: 768px) and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1157px) {
   .back-hero-img {
     min-width: 768px;
   }
@@ -486,7 +493,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 36px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1158px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .back-hero-img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-office.jpg);
@@ -581,7 +588,7 @@ h1, h2, h3, h4, h5, h6, p {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
-@media (min-width: 768px) and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1157px) {
   .services{
     padding-top: 96px;
     padding-bottom: 96px;
@@ -736,7 +743,7 @@ h1, h2, h3, h4, h5, h6, p {
 .team-icons {
   fill: #f4f4fd;
 }
-@media (min-width: 768px) and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1157px) {
   .team-container {
     flex-wrap: wrap;
     row-gap: 64px;
@@ -759,17 +766,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
-
 /*-------------- Portfolio-------------*/
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-.section{
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .port-item-container {
   flex-basis: calc((100% - 240px) / 6);
@@ -809,7 +811,7 @@ h1, h2, h3, h4, h5, h6, p {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media (min-width: 768px) and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1157px) {
   .portfolio-container {
     row-gap: 72px;
     justify-content: center;
@@ -825,6 +827,7 @@ h1, h2, h3, h4, h5, h6, p {
     gap: 48px;
   }
 }
+
 
   
 
@@ -1225,7 +1228,7 @@ input::placeholder {
 .form-submit-button:focus {
   background-color: #404bbf;
 }
-@media (min-width: 768px) and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1157px) {
   .modal {
     top: 40%;
   }
