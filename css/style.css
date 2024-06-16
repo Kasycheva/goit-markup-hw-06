@@ -447,8 +447,7 @@ img {
   }
 }
 .first-section {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -460,7 +459,7 @@ img {
   margin: 0 auto;
   color: #fff;
   margin-bottom: 48px;
-  padding-top: 188px;
+  
 }
 .order-service-button {
   font-family: 'Roboto', sans-serif;
@@ -492,8 +491,7 @@ img {
     height: 436px;
   }
   .first-section {
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding: 112px 0;
   }
   .hero-title {
     margin-bottom: 36px;
@@ -528,8 +526,7 @@ img {
     margin-bottom: 72px;
   }
   .first-section {
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding: 72px 0;
   }
 }
 @media screen and (max-width: 767px) {
@@ -867,10 +864,10 @@ img {
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+  
 }
-.footer-box {
- 
-}
+
 .logo-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -918,9 +915,6 @@ img {
 .footer-svg {
   fill: #f4f4fd;
 }
-.footer-subscribe {
- 
-}
 .footer-info-text {
   font-weight: 500;
   font-size: 16px;
@@ -933,8 +927,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.footer-form-label {
-}
+
 .footer-form-input {
   width: 264px;
   height: 40px;
@@ -993,6 +986,9 @@ input::placeholder {
   input::placeholder {
     opacity: 0.6;
   }
+.footer {
+    padding: 96px 0;
+  }
 }
 @media (max-width: 767px) {
   .footer-box {
@@ -1034,6 +1030,9 @@ input::placeholder {
   }
   .subscribe-btn {
     margin: 0 auto;
+  }
+  .footer {
+    padding: 96px 0;
   }
 }
 
