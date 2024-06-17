@@ -35,10 +35,8 @@ img {
       max-width: 100%;
       height: auto;
     }
-.services{
-      padding-top: 120px;
-      padding-bottom: 120px;
-}    
+
+    
     
 @media screen and (min-width: 768px) {
   .container {
@@ -49,8 +47,9 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding: 0 15px;
+    padding: 0 15px;  
   }
+  
 }
 .picture {
       display: block;
@@ -430,7 +429,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
- 
+  padding: 188px 0;
   margin: 0 auto;
 }
 @media screen and (min-width: 1158px) {
@@ -488,7 +487,7 @@ img {
 @media (min-width: 768px) and (max-width: 1157px) {
   .back-hero-img {
     min-width: 768px;
-    height: 436px;
+    padding: 109px 0;
   }
   .first-section {
     padding: 112px 0;
@@ -513,7 +512,7 @@ img {
 @media (max-width: 767px) {
   .back-hero-img {
     min-width: 320px;
-    height: 432px;
+    padding: 72px 0;
      }
   .hero-title {
     font-size: 36px;
@@ -558,10 +557,9 @@ img {
 .advantages-list {
   list-style-type: none;
 }
-.services{
-  padding-top: 96px;
-  padding-bottom: 96px;
-}
+
+
+
 .services-title {
   font-weight: 500;
   font-size: 20px;
@@ -595,8 +593,7 @@ img {
 }
 @media (min-width: 768px) and (max-width: 1157px) {
   .services{
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding: 96px 0;
   }
   .services-tab {
     font-weight: 700;
@@ -629,6 +626,9 @@ img {
     flex-direction: column;
     gap: 72px;
   }
+  .services{
+    padding: 96px 0;
+  }
   .services-tab {
     font-weight: 700;
     font-size: 36px;
@@ -656,6 +656,9 @@ img {
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
   }
+  .services{
+    padding: 120px 0;
+  }
 }
 
 
@@ -668,6 +671,7 @@ img {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-title {
   font-weight: 700;
@@ -678,7 +682,7 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding-top: 118px;
+
 }
 .employer {
   font-weight: 500;
@@ -759,6 +763,9 @@ img {
     flex-basis: calc((100% - 176px) / 2);
     max-width: 264px;
   }
+  .team{
+    padding: 96px 0;
+  }
 }
 @media (max-width: 767px) {
   .team-container {
@@ -769,6 +776,9 @@ img {
   .team-item {
     max-width: 264px;
   }
+  .team{
+    padding: 96px 0;
+  } 
 }
 
 
@@ -779,8 +789,12 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
+.section{
+  padding: 120px 0;
+
+}
 .port-item-container {
-  flex-basis: calc((100% - 240px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .app-container {
   padding: 32px 16px;
@@ -825,12 +839,20 @@ img {
   .port-item-container {
     flex-basis: calc((100% - 24px) / 2);
   }
+  .section{
+    padding: 96px 0;
+  
+  }
 }
 @media (max-width: 767px) {
   .portfolio-container {
     flex-direction: column;
     align-items: center;
     gap: 48px;
+  }
+  .section{
+    padding: 96px 0;
+  
   }
 }
 
@@ -1008,8 +1030,7 @@ input::placeholder {
   }
   .footer-container {
     flex-direction: column;
-    padding-top: 96px;
-    padding-bottom: 96px;
+   
   }
   .footer-subscribe {
     display: flex;
